@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kimoh/screens/home.page.dart';
+import 'package:kimoh/screens/onboarding.page.dart';
 import 'package:kimoh/utils/utils.dart';
 import 'package:kimoh/utils/theme.dart';
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: const HomePage(),
+      home: const OnboardingPage(),
       debugShowCheckedModeBanner: false,
     );
   }
